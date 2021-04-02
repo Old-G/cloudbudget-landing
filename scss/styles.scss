@@ -469,10 +469,10 @@ body {
   &-img {
     display: flex;
     align-items: center;
+    position: relative;
     
     &-items {
       display: flex;
-      position: relative;
       max-width: 533px;
 
       &__item-l {
@@ -488,7 +488,7 @@ body {
 
     &__item {
       position: absolute;
-      right: 15%;
+      right: 8%;
     }
   }
 }
