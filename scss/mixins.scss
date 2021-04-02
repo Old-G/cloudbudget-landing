@@ -15,3 +15,49 @@
     color: lighten($color-red, 10%)
   }
 }
+
+@mixin btn{
+  color: $color-w;
+  font-size: $fs-14;
+  font-weight: $fw-regular;
+  border: 1px solid $color-w;
+  border-radius: 6px;
+  padding: 12px 28px;
+  margin: 0;
+  background-color: none;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-w;
+    color: $color-red;
+  }
+
+  &--white {
+    background-color: $color-w;
+    color: $color-red;
+    padding: 16px 52px;
+
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $color-w;
+      color: $color-w;
+    }
+  }
+
+  &--red {
+    background-color: $color-red;
+    outline-width: 0;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid $color-red;
+    }
+  }
+}
+
+@mixin title {
+  font-size: $fs-18;
+  font-weight: $fw-bold;
+  margin-bottom: 35px;
+}

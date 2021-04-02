@@ -399,7 +399,7 @@ body {
   transition: 0.2s; }
 
 .nav-wrap__item-link:hover {
-  color: #fafafa; }
+  color: #cccccc; }
 
 .nav-wrap__item-link--active {
   font-weight: 700; }
