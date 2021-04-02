@@ -639,11 +639,11 @@ body {
 
 .main-app-img {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .main-app-img-items {
   display: flex;
-  position: relative;
   max-width: 533px; }
 
 .main-app-img-items__item-l {
@@ -655,7 +655,7 @@ body {
 
 .main-app-img__item {
   position: absolute;
-  right: 15%; }
+  right: 8%; }
 
 .section-contact .section-inner {
   padding-top: 90px;
