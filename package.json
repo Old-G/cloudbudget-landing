@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-stylelint": "^13.0.0"
+  },
+  "name": "cloudbudget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "gulp"
+  ],
+  "author": "Gleb Zavalov <oldg590@gmail.com>",
+  "license": "ISC",
+  "description": ""
+}

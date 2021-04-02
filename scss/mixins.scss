@@ -1,0 +1,17 @@
+@import '_vars.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@mixin lato {
+  font-family: 'Lato', sans-serif;
+}
+
+@mixin a {
+  text-decoration: none;
+  color: $color-red;
+  line-height: 140%;
+
+  &:hover {
+    color: lighten($color-red, 10%)
+  }
+}
