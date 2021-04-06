@@ -6,6 +6,11 @@
   font-family: 'Lato', sans-serif;
 }
 
+@mixin innerV {
+  padding-top: $padding-vertical;
+  padding-bottom: $padding-vertical;
+}
+
 @mixin a {
   text-decoration: none;
   color: $color-red;
@@ -53,6 +58,32 @@
     &:hover {
       border: 1px solid $color-red;
     }
+  }
+}
+
+@mixin btn-burger {
+  display: none;
+  margin-left: auto;
+  background: none;
+  cursor: pointer;
+  outline-width: 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid $color-w;
+
+  &__line {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: $color-w;
+
+    & + & {
+      margin-top: 4px;
+    }
+  }
+
+  @media (max-width: $breakpoint-md-max) {
+    display: block;
   }
 }
 
